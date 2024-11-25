@@ -1,0 +1,51 @@
+.projects {
+	padding-top: 10%;
+	font-style: oblique;
+	margin-left: 40%;
+}
+.projects-bullet {
+	margin-bottom: 2%;
+}
+.projects-bullet h3 {
+	font-style: oblique;
+	font-weight: normal;
+}
+.projects-bullet p {
+	font-weight: normal;
+	font-style: oblique;
+	font-size: 15px;
+}
+.projects-desc {
+	display: flex;
+	flex-direction: row;
+}
+.row {
+	margin-left: 15%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 75%;
+	text-align: center;
+}
+.column-1 {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	height: 50vh;
+	flex: 1 1 auto;
+}
+.column-2 {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	height: 50vh;
+	flex: 1 1 auto;
+}
+.left-column {
+	background-color: rgb(149, 149, 214);
+	height: 100px;
+}
+.right-column {
+	background-color: rgb(204, 240, 204);
+	height: 100px;
+}

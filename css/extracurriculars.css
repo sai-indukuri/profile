@@ -1,0 +1,28 @@
+.extracurriculars {
+	padding-top: 10%;
+	font-style: oblique;
+	margin-left: 40%;
+}
+.extracurriculars-desc {
+	padding: 2%;
+	margin-left: 5%;
+	font-style: oblique;
+}
+.extracurriculars-bullet {
+	margin-bottom: 2%;
+}
+.extracurriculars-bullet h3 {
+	font-style: oblique;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.extracurriculars-bullet p {
+	font-weight: normal;
+	font-style: oblique;
+	font-size: 15px;
+}
+.extracurriculars-bullet h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

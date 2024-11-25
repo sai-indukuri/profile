@@ -1,0 +1,22 @@
+.academics {
+	padding-top: 10%;
+	font-style: oblique;
+	margin-left: 40%;
+}
+.academics-desc {
+	padding: 2%;
+	margin-left: 5%;
+	font-style: oblique;
+}
+.academics-bullet {
+	margin-bottom: 2%;
+}
+.academics-bullet h3 {
+	font-style: oblique;
+	font-weight: normal;
+}
+.academics-bullet p {
+	font-weight: normal;
+	font-style: oblique;
+	font-size: 15px;
+}
