@@ -1,51 +1,55 @@
+.projects-content {
+	background-color: #F0EDE5;
+	height: 100%;
+	color: #272317;
+	padding-top: 11.5%;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
 .projects {
-	padding-top: 10%;
-	font-style: oblique;
-	margin-left: 40%;
+	text-align: center;
+	padding: 1rem;
 }
 .projects-bullet {
 	margin-bottom: 2%;
+	box-shadow: 0px 0px 5px 0px #332E1E;
 }
 .projects-bullet h3 {
-	font-style: oblique;
-	font-weight: normal;
+	font-weight: bold;
+	padding: 0.5rem 0.5rem;
+	background-color: #B3A77E;
 }
 .projects-bullet p {
 	font-weight: normal;
 	font-style: oblique;
 	font-size: 15px;
+	background-color: #D9D3BF;
+	padding: 0.5rem 0.5rem;
 }
 .projects-desc {
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 1rem;
 }
 .row {
-	margin-left: 15%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 75%;
-	text-align: center;
+	width: 100%;
 }
 .column-1 {
 	width: 40%;
-	display: flex;
-	flex-direction: column;
-	height: 50vh;
-	flex: 1 1 auto;
+	text-align: center;
 }
 .column-2 {
 	width: 60%;
-	display: flex;
-	flex-direction: column;
-	height: 50vh;
-	flex: 1 1 auto;
+	text-align: center;
 }
 .left-column {
 	background-color: rgb(149, 149, 214);
-	height: 100px;
+	height: 200px;
 }
 .right-column {
 	background-color: rgb(204, 240, 204);
-	height: 100px;
+	height: 200px;
 }

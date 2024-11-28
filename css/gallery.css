@@ -1,0 +1,19 @@
+.gallery-content {
+    background-color: #F0EDE5;
+	height: 100%;
+	color: #272317;
+	padding-top: 11.5%;
+}
+.gallery {
+    text-align: center;
+	padding: 1rem;
+}
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* 3 equal columns */
+    grid-template-rows: repeat(3, 1fr);     /* 3 equal rows */
+    gap: 15px;
+    padding: 2rem;
+    justify-items: center;
+    align-items: center;
+}
