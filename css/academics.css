@@ -1,22 +1,31 @@
+.academics-content {
+	background-color: #F0EDE5;
+	height: 100%;
+	color: #272317;
+	padding-top: 11.5%;
+}
 .academics {
-	padding-top: 10%;
-	font-style: oblique;
-	margin-left: 40%;
+	text-align: center;
+	padding: 1rem;
 }
 .academics-desc {
 	padding: 2%;
-	margin-left: 5%;
-	font-style: oblique;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 }
 .academics-bullet {
 	margin-bottom: 2%;
 }
 .academics-bullet h3 {
-	font-style: oblique;
-	font-weight: normal;
+	font-weight: bold;
+	padding: 0.5rem 0.5rem;
+	background-color: #B3A77E;
 }
 .academics-bullet p {
 	font-weight: normal;
 	font-style: oblique;
 	font-size: 15px;
+	background-color: #D9D3BF;
+	padding: 0.5rem 0.5rem;
 }
