@@ -43,3 +43,6 @@
 .gallery-navbar a {
 	color: rgb(4, 73, 73);
 }
+#section2 {
+	scroll-margin-top: 200px;
+}
