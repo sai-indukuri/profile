@@ -48,6 +48,7 @@
 	background-color: #c3b998;
 }
 .sub-header {
+	margin-top: 3%;
 	margin-left: 12%;
 }
 .gallery-navbar {
@@ -57,5 +58,5 @@
 	text-decoration: underline;
 }
 .gallery-navbar a {
-	color: rgb(22, 25, 26);
+	color: rgb(4, 73, 73);
 }

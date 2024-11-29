@@ -23,7 +23,7 @@
 }
 .header-name {
 	font-size: 35px;
-	color: #E8E5D8;
+	color: #e8e5d8;
 	font-weight: 600;
 	transition: 0.3s ease;
 	font-style: oblique;
@@ -43,7 +43,7 @@
 .navbar a {
 	text-decoration: none;
 	font-size: 20px;
-	color: #E8E5D8;
+	color: #e8e5d8;
 	font-weight: 500;
 	transition: all .3s ease;
 	display: inline-block;
@@ -52,7 +52,7 @@
 .navbar a:hover {
 	color: #272317;
 	font-size: 21px;
-    transform: scale(1.05);
+	transform: scale(1.05);
 	z-index: 1;
 }
 a {
@@ -66,7 +66,7 @@ a:hover {
 .home {
 	width: 100%;
 	min-height: 100vh;
-	background: #E8E5D8;
+	background: #e8e5d8;
 	display: flex;
 	align-items: center;
 	gap: 7rem;
@@ -74,14 +74,19 @@ a:hover {
 }
 .home-content {
 	display: flex;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0px 0px 5px 0px #332e1e;
+	margin-left: 6%;
+	margin-top: 5%;
 }
 .home-content h1 {
-	font-size: 50px;
+	font-size: 35px;
 	line-height: 1.2;
 }
 .desc-box1 {
 	padding: 25px 35px;
-	background-color: #D2CAB2;
+	background-color: #d2cab2;
 }
 .desc-box1 a {
 	text-decoration: underline;
@@ -94,7 +99,6 @@ a:hover {
 .desc-box1 p {
 	font-size: 18px;
 	margin: 25px 15px;
-	font-style: oblique;
 	color: #272317;
 }
 .img-box {
@@ -102,13 +106,13 @@ a:hover {
 	flex-direction: column;
 	align-items: center;
 	height: 50%;
-	background: #C3B998;
+	background: #c3b998;
 	padding: 0 5rem;
 }
 .img-box img {
 	border-radius: 50%;
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	margin-top: 1.5rem;
 	margin-bottom: 2.5rem;
 }
@@ -116,16 +120,18 @@ a:hover {
 	text-align: center;
 	color: #272317;
 	margin-bottom: 1rem;
+	font-style: oblique;
 }
 .img-sub-caption {
 	text-align: center;
 	color: #272317;
 	margin-bottom: 2rem;
 	font-size: 15px;
+	font-style: oblique;
 }
 .divider {
 	width: 50px;
-    height: 5px;
+	height: 5px;
 	background-color: #272317;
 	margin-bottom: 1rem;
 }
@@ -135,9 +141,9 @@ a:hover {
 	width: 15px;
 }
 ::-webkit-scrollbar-thumb {
-	background-color: #332E1E;
+	background-color: #332e1e;
 }
 ::-webkit-scrollbar-track {
-	background-color: #E8E5D8;
+	background-color: #e8e5d8;
 	width: 50px;
 }
