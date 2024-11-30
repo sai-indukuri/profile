@@ -48,7 +48,7 @@
 	background-color: #c3b998;
 }
 .sub-header {
-	margin-top: 3%;
+	margin-top: 2%;
 	margin-left: 12%;
 }
 .gallery-navbar {
@@ -59,4 +59,7 @@
 }
 .gallery-navbar a {
 	color: rgb(4, 73, 73);
+}
+#section2 {
+	scroll-margin-top: 200px;
 }
