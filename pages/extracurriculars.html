@@ -25,14 +25,13 @@
       <a href="./gallery.html">Gallery</a>
     </nav>
   </header>
-
+  <header class="sub-header">
+    <nav class="extracurriculars-navbar">
+      <a href="#">Extra Curriculars</a>
+      <a href="#awards">Awards</a>
+    </nav>
+  </header>
   <div class="extracurriculars-content">
-    <div class="sub-header">
-      <nav class="gallery-navbar">
-        <a href="#section1">Extra Curriculars</a>
-        <a href="#section2">Awards</a>
-      </nav>
-    </div>
     <div class="extracurriculars-desc">
       <div class="extracurriculars-bullet">
         <h2 id="section1">Extra Curriculars</h2>
@@ -76,7 +75,7 @@
           let your users know a little more about you.</p>
       </div>
       <div class="extracurriculars-bullet">
-        <h2 id="section2">Awards</h3>
+        <h2 id="awards">Awards</h3>
           <p>Civil Air Patrol - Wright Brothers Award</p>
           <p>2xPresident's Volunteer Service Award for volunteering 175 hours</p>
           <h4>Vex Robotics</h3>
@@ -95,6 +94,19 @@
       </div>
     </div>
   </div>
+  <script>
+    const callbackFunc = function () {
+      const headerHeight = document.querySelector('.header').offsetHeight;
+      const subHeader = document.querySelector('.sub-header');
+      subHeader.style.top = headerHeight + 'px';
+
+      const subHeaderHeight = subHeader.offsetHeight;
+      const extracurricularsContent = document.querySelector('.extracurriculars-content');
+      extracurricularsContent.style.paddingTop = headerHeight + subHeaderHeight + 'px';
+    };
+    window.onload = callbackFunc;
+    window.addEventListener('resize', callbackFunc);
+  </script>
 </body>
 
 </html>

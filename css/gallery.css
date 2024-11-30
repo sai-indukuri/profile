@@ -36,9 +36,6 @@
 	justify-items: center;
 	align-items: center;
 }
-.sub-header {
-	margin-left: 9%;
-}
 .gallery-navbar {
 	display: flex;
 	gap: 3rem;
@@ -46,6 +43,25 @@
 	text-decoration: underline;
 }
 .gallery-navbar a {
+	color: #272317;
+}
+.gallery-navbar a:hover {
+	opacity: 0.5;
+}
+.sub-header {
+	position: fixed;
+	width: 100%;
+	background-color: #C3B998;
+	padding: 1rem 9rem;
+}
+.video-container {
+    display: grid;
+	grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+	grid-template-rows: repeat(3, 1fr); /* 3 equal rows */
+	gap: 15px;
+	padding: 2rem;
+	justify-items: center;
+	align-items: center;
 	color: rgb(4, 73, 73);
 }
 #section1 {
