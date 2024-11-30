@@ -20,7 +20,8 @@
 	overflow-y: auto;
 }
 .video-title {
-	margin-left: 8%;
+	text-align: center;
+	font-size: 2em;
 }
 .video-container {
 	display: grid;
@@ -42,6 +43,9 @@
 }
 .gallery-navbar a {
 	color: rgb(4, 73, 73);
+}
+#section1 {
+	scroll-margin-top: 200px;
 }
 #section2 {
 	scroll-margin-top: 200px;
