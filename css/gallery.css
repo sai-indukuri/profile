@@ -41,7 +41,7 @@
 	gap: 3rem;
 	font-size: large;
 	text-decoration: underline;
-	margin-top: 5px;
+	margin-top: 8px;
 }
 .gallery-navbar a {
 	color: #272317;
@@ -66,5 +66,5 @@
 	color: rgb(4, 73, 73);
 }
 #videos {
-	scroll-margin-top: 250px;
+	scroll-margin-top: 220px;
 }

@@ -146,3 +146,25 @@ a:hover {
 	background-color: #e8e5d8;
 	width: 50px;
 }
+.btn {
+	border: none;
+	border-radius: 12px;
+	color: #d2cab2;
+	padding: 14px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	margin: 4px 12px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.btn1 {
+	background-color: #d2cab2;
+	color: black;
+	border: 2px solid #504c46;
+}
+.btn1:hover {
+	background-color: #5c4a31;
+	color: white;
+}
