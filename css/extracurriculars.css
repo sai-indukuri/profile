@@ -60,6 +60,9 @@
 .sub-header {
 	position: fixed;
 	width: 100%;
-	background-color: #C3B998;
+	background-color: #c3b998;
 	padding: 1rem 9rem;
+}
+#awards {
+	scroll-margin-top: 275px;
 }

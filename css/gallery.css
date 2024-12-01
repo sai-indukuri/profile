@@ -20,8 +20,13 @@
 	overflow-y: auto;
 }
 .video-title {
+	text-align: center;
+	font-size: 2em;
 	margin-left: 8%;
+	text-align: center;
+	font-size: 25px;
 }
+
 .video-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
@@ -36,6 +41,7 @@
 	gap: 3rem;
 	font-size: large;
 	text-decoration: underline;
+	margin-top: 5px;
 }
 .gallery-navbar a {
 	color: #272317;
@@ -46,11 +52,11 @@
 .sub-header {
 	position: fixed;
 	width: 100%;
-	background-color: #C3B998;
+	background-color: #c3b998;
 	padding: 1rem 9rem;
 }
 .video-container {
-    display: grid;
+	display: grid;
 	grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
 	grid-template-rows: repeat(3, 1fr); /* 3 equal rows */
 	gap: 15px;
@@ -59,6 +65,6 @@
 	align-items: center;
 	color: rgb(4, 73, 73);
 }
-#section2 {
-	scroll-margin-top: 200px;
+#videos {
+	scroll-margin-top: 250px;
 }
